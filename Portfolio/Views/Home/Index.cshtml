@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Nawshin Nasir - Portfolio";
+}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="@Url.Action("Index", "Home")">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Education", "Home")">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Projects", "Home")">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("References", "Home")">References</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("PersonalInformation", "Home")">Personal Information</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <section class="row">
+        <h1>Welcome to Nawshin Nasir's Portfolio</h1>
+        <p>Name: Nawshin Nasir</p>
+        <p>ID: 21-44405-1</p>
+        <p>Email: <a href="mailto:nawshin22nasir@gmail.com">nawshin22nasir@gmail.com</a></p>
+        <p>Github: <a href="https://github.com/nawshinbiva" target="_blank">https://github.com/nawshinbiva</a></p>
+    </section>
+</main>

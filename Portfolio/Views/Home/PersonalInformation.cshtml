@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "Personal Information";
+}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="@Url.Action("Index", "Home")">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Education", "Home")">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Projects", "Home")">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("References", "Home")">References</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("PersonalInformation", "Home")">Personal Information</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<h2>Personal Information</h2>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>: </th>
+        <td> Nawshin Nasir</td>
+    </tr>
+    <tr>
+        <th> Father's Name</th>
+        <th>: </th>
+        <td>xyz</td>
+    </tr>
+    <tr>
+        <th>Mother's Name</th>
+        <th>: </th>
+        <td> abc</td>
+    </tr>
+    <tr>
+        <th>DOB</th>
+        <th>: </th>
+        <td> 22/08/2000</td>
+    </tr>
+    <tr>
+        <th>Gender</th>
+        <th>: </th>
+        <td>Female</td>
+    </tr>
+    <tr>
+        <th>Nationality</th>
+        <th>: </th>
+        <td>Bangladeshi</td>
+    </tr>
+    <tr>
+        <th>Contact Number</th>
+        <th>: </th>
+        <td>123456789</td>
+    </tr>
+</table>

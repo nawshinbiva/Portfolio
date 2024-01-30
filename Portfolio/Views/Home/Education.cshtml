@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Education";
+}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="@Url.Action("Index", "Home")">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Education", "Home")">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Projects", "Home")">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("References", "Home")">References</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("PersonalInformation", "Home")">Personal Information</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<h2>Educational Background</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Degree</th>
+            <th>Year</th>
+            <th>Institution</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>BSC</td>
+            <td>2024</td>
+            <td>American International University-Bangladesh</td>
+        </tr>
+        <tr>
+            <td>A Levels</td>
+            <td>2019</td>
+            <td>South Point School and College</td>
+        </tr>
+        <tr>
+            <td>O Levels</td>
+            <td>2016</td>
+            <td>South Point School and College</td>
+        </tr>
+    </tbody>
+</table>
